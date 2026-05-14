@@ -1,75 +1,321 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width" />
-        <title>Abdul Omar</title>
-        <link rel="stylesheet" href="CSS/styles.css">
-        <link rel="icon" href="favicon.ico">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="top-container">
-            <img class="top-cloud" src="images/cloud.png" rel="cloud-img">
-            <h1>I'm Abdul.</h1>
-            <h2>A programmer.</h2>
-            <img class="bottom-cloud" src="images/cloud.png" rel="cloud-img">
-            <img src="images/mountain.png">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Abdul Omar - Systems Engineer and automation developer building Python automation, web scraping workflows, dashboards, and business systems."
+    />
+    <title>Abdul Omar | Abdulics</title>
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a class="brand" href="#top" aria-label="Abdulics home">
+          <img
+            src="assets/abdulics-logo.png"
+            alt="Abdulics Logo"
+            class="brand-logo"
+          />
+          <span>Abdulics</span>
+        </a>
+        <button
+          class="nav-toggle"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links">
+          <a href="#services">Services</a><a href="#projects">Projects</a
+          ><a href="#skills">Skills</a><a href="#experience">Experience</a
+          ><a href="#contact" class="nav-cta">Contact</a>
         </div>
-        <div class="middle-container">
-            <div class="profile">
-              <img class="profile-pic" src="images/abdul-pic-circle.png" alt="Abdul's profile picture" width="190" height="190">
-              <h2>Hello.</h2>
-              <p>I am a Java programmer and a web Developer. I'm also a father and love my kids very much.</p>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">
+              Systems Engineer • Automation Developer • Abdulics
+            </p>
+            <h1>Smart automation and business systems that save time.</h1>
+            <p class="hero-text">
+              I build practical Python automation, web scraping workflows,
+              dashboards, and lightweight web tools that simplify repetitive
+              work and turn data into useful business output.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn primary">View Projects</a
+              ><a href="#contact" class="btn secondary">Work With Me</a>
             </div>
-            <hr>
-            <div class="skills">
-              <h2>My Skills.</h2>
-              <div class="skill-row">
-                <img class="code-img" src="images/coding-png.png" alt="">
-                <h3>Programming and Web Development</h3>
-              
-                <p>Java ⭐⭐⭐⭐</p>
-                <p> C and C++ ⭐⭐⭐</p>
-                <p> Html/Css/Js ⭐⭐⭐⭐</p>
-                <p> SQL & MongoDB⭐⭐⭐</p>
-              </div>
-              <div class="skill-row">
-                <img class="frame-img" src="images/framework-icon.png" alt="">
-                <h3>Frameworks and Tools</h3>
-                <p>Springboot, hibernate, Node.js, Angular, Maven</p>
-                <p> Git & Agile</p>
-              </div>
-              <div class="skill-row">
-                <img class="proj-img" src="images/project-icon.png" alt="">
-                <h3>Experience and Projects</h3>
-                <p>Web based User manangement System (Java, springboot, Angular,Tomcat and SQL Database)</p>
-                <p>Auto loan Lender Platform (Html/Css/Js, Typscript, Angular, Oraccle database, Git)</p>
-                <p> Password manager (Html, css, java, SQL database, Tomcat)</p>
-                <br>
-                <p> <strong>Software Automation Engineer</strong>  At <i>Physicians Mutual · Internship </i></p>
-                <p> <i>Oct 2019 - Sep 2020 · 1 yr </i> </p>
-                <p> <i>Omaha, Nebraska </i> </p>
-              </div>
-            </div>
-            <hr>
-            <div class="contact-me">
-              <h2>Contact Me</h2>
-              <h3>Technology faccinates me and ready to learn it every day.</h3>
-              <p>Looking for a junior developer for java/springboot or web developer? lets get in touch</p><br>
-              <a class="btn" href="mailto:Abdukadiromar12@gmail.com">CONTACT ME</a>
+            <div class="hero-stats" aria-label="Professional focus areas">
+              <div><strong>Python</strong><span>Automation</span></div>
+              <div><strong>Data</strong><span>Extraction</span></div>
+              <div><strong>Business</strong><span>Dashboards</span></div>
             </div>
           </div>
-          
-          <footer>
-          <div class="bottom-container">
-            <a class="footer-link" href="https://linkedin.com/in/abdulkadir-abdul-omar-95ba94133">LinkedIn</a>
-            <a class="footer-link" href="https://twitter.com/">Twitter</a>
-            <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-            <p>© Abdul Omar.</p>
+          <div class="hero-card">
+            <div class="profile-wrap">
+              <img
+                src="assets/abdul-profile.png"
+                alt="Portrait of Abdul Omar"
+              />
+            </div>
+            <div class="terminal-card">
+              <div class="terminal-bar">
+                <span></span><span></span><span></span>
+              </div>
+              <pre><code>$ python automate_workflow.py
+✓ Login completed
+✓ Data extracted
+✓ CSV/XLSX report generated
+✓ Workflow finished successfully</code></pre>
+            </div>
           </div>
-        </footer>
-    </body>
+        </div>
+      </section>
+
+      <section class="section intro">
+        <div class="container split">
+          <div>
+            <p class="eyebrow">About</p>
+            <h2>Engineer mindset. Business-focused delivery.</h2>
+          </div>
+          <p>
+            I’m Abdul Omar, a Software Developer and IBM Systems Engineer
+            focused on automation, workflow systems, and business tooling. My
+            background includes z/OS, OPS/MVS, REXX, and JCL, alongside modern
+            development with Python, Flask, web technologies, and data
+            automation tools.
+          </p>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">What I build</p>
+            <h2>Services aligned with real business problems.</h2>
+          </div>
+          <div class="cards three">
+            <article class="card">
+              <div class="icon">⚙️</div>
+              <h3>Python Automation</h3>
+              <p>
+                Custom scripts that automate repetitive website tasks, reports,
+                file processing, and workflows.
+              </p>
+            </article>
+            <article class="card">
+              <div class="icon">📊</div>
+              <h3>Web Scraping & Data Extraction</h3>
+              <p>
+                Clean extraction workflows that collect public data and export
+                structured CSV/XLSX datasets.
+              </p>
+            </article>
+            <article class="card">
+              <div class="icon">📈</div>
+              <h3>Business Systems & Dashboards</h3>
+              <p>
+                Simple Google Sheets and Excel systems for tracking expenses,
+                sales, inventory, and operations.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Portfolio</p>
+            <h2>Selected projects and demos.</h2>
+            <p class="muted">
+              Focused examples of the type of work I build under Abdulics.
+            </p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card featured">
+              <div class="project-content">
+                <span class="tag">Flagship</span>
+                <h3>Flask Team Manager</h3>
+                <p>
+                  A web-based team management system with authentication, task
+                  tracking, team structure, role-based workflows, and
+                  database-backed operations.
+                </p>
+                <ul>
+                  <li>Flask / Python backend</li>
+                  <li>PostgreSQL + SQLAlchemy</li>
+                  <li>Role-based dashboards</li>
+                </ul>
+                <div class="project-links">
+                  <a href="#">GitHub link coming soon</a>
+                </div>
+              </div>
+            </article>
+            <article class="project-card">
+              <span class="tag">Automation</span>
+              <h3>Headless Task Extraction Workflow</h3>
+              <p>
+                Selenium automation that logs into a web app, extracts task
+                records, and generates CSV reports.
+              </p>
+              <div class="stack">Python • Selenium • Pandas • CSV</div>
+            </article>
+            <article class="project-card">
+              <span class="tag">Data</span>
+              <h3>Web Scraping Data Pipeline</h3>
+              <p>
+                Multi-page scraping workflow with pagination, terminal logging,
+                and CSV/XLSX exports.
+              </p>
+              <div class="stack">Python • BeautifulSoup • Requests • Excel</div>
+            </article>
+            <article class="project-card">
+              <span class="tag">Business Systems</span>
+              <h3>Expense Tracker Dashboard</h3>
+              <p>
+                Google Sheets/Excel dashboard that tracks income, expenses,
+                categories, KPIs, and monthly summaries.
+              </p>
+              <div class="stack">Google Sheets • Excel • Dashboards</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Technology stack and working strengths.</h2>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-box">
+              <h3>Automation & Data</h3>
+              <p>
+                Python, Selenium, BeautifulSoup, Requests, Pandas, CSV/XLSX
+                exports, logging, workflow scripting
+              </p>
+            </div>
+            <div class="skill-box">
+              <h3>Web & Backend</h3>
+              <p>
+                Flask, FastAPI basics, HTML, CSS, JavaScript, SQLAlchemy,
+                PostgreSQL, REST APIs
+              </p>
+            </div>
+            <div class="skill-box">
+              <h3>Mainframe Systems</h3>
+              <p>
+                z/OS, OPS/MVS, REXX, JCL, automation monitoring, operations
+                workflows, alerting concepts
+              </p>
+            </div>
+            <div class="skill-box">
+              <h3>Tools & Workflow</h3>
+              <p>
+                Git, GitHub, Linux, VS Code, Google Sheets, Excel, system
+                design, documentation
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience">
+        <div class="container split">
+          <div>
+            <p class="eyebrow">Experience</p>
+            <h2>Current professional direction.</h2>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span>Current</span>
+              <h3>Systems Engineer II — Mainframe Automation & Tools</h3>
+              <p>
+                Working with mainframe automation concepts, operational
+                workflows, z/OS tooling, REXX/JCL, and systems-focused problem
+                solving.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <span>Building</span>
+              <h3>Abdulics</h3>
+              <p>
+                Developing a focused portfolio of automation tools, data
+                extraction workflows, dashboards, and lightweight business
+                systems for clients and small teams.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section brand-section">
+        <div class="container brand-panel">
+          <p class="eyebrow">Abdulics</p>
+          <h2>Smart solutions. Real results.</h2>
+          <p>
+            Abdulics is my practical technology brand for automation, business
+            systems, data workflows, and tools that help people work smarter.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container contact-card">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Have a workflow you want to simplify?</h2>
+            <p>
+              Reach out for automation, scraping, dashboards, or lightweight
+              business systems.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="btn primary" href="mailto:abdukadiromar12@gmail.com"
+              >Email Me</a
+            ><a
+              class="btn secondary"
+              href="https://github.com/abdukadiromar12"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            ><a
+              class="btn secondary"
+              href="https://linkedin.com/in/abdulkadir-abdul-omar-95ba94133"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Abdul Omar / Abdulics.</p>
+        <p>Automation • Data • Business Systems</p>
+      </div>
+    </footer>
+    <script>
+      const toggle = document.querySelector(".nav-toggle");
+      const links = document.querySelector(".nav-links");
+      toggle.addEventListener("click", () => {
+        const open = links.classList.toggle("open");
+        toggle.setAttribute("aria-expanded", open);
+      });
+      document.querySelector("#year").textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>
