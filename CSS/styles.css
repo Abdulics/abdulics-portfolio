@@ -234,6 +234,20 @@ h3 {
   border-radius: 22px;
   overflow: hidden;
   border: 1px solid var(--line);
+  background: linear-gradient(
+    135deg,
+    rgba(8, 15, 28, 0.92),
+    rgba(14, 28, 48, 0.95)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
 }
 .terminal-card {
   margin-top: 18px;
