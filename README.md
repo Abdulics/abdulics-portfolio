@@ -1,28 +1,37 @@
-# Abdul Omar / Abdulics Portfolio
+# Abdul Omar / Abdulics
 
-Modern static portfolio site for Abdul Omar and the Abdulics brand.
+Modern portfolio website for Abdul Omar — Systems Engineer and automation-focused developer building practical business systems, automation workflows, and data-driven tools under the Abdulics brand.
 
-## Highlights
+## Focus Areas
 
-- Python automation
-- Web scraping and data extraction
-- Google Sheets / Excel business systems
-- Flask / backend projects
-- Mainframe systems engineering background
+- Python Automation
+- Web Scraping & Data Extraction
+- Business Dashboards & Workflow Systems
+- Flask & Backend Development
+- Mainframe Systems Engineering
+- Operational Automation & Tooling
 
-## Run locally
+## Featured Projects
 
-Open `index.html` directly in your browser.
+- Flask Team Manager
+- Python Automation Workflows
+- Web Scraping Pipelines
+- Business Dashboard Systems
 
-## Publish on GitHub Pages
+## About Abdulics
 
-1. Create a repository named `YOUR_USERNAME.github.io`
-2. Upload these files
-3. Go to Settings > Pages
-4. Deploy from the main branch
-5. Visit `https://YOUR_USERNAME.github.io`
+Abdulics is a technology brand focused on building smart automation, workflow systems, business tooling, and lightweight web solutions designed to simplify operations and improve efficiency.
 
-## Update before publishing
+## Website
 
-- Replace project placeholder links with your real GitHub repositories.
-- Add demo screenshots or GIFs later if desired.
+https://www.abdulics.com
+
+## Contact
+
+- info@abdulics.com
+- GitHub: https://github.com/abdulics
+- LinkedIn: https://linkedin.com/in/abdul-omar18
+
+---
+
+© 2026 Abdul Omar / Abdulics. All rights reserved.
