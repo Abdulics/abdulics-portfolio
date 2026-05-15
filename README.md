@@ -28,7 +28,7 @@ https://www.abdulics.com
 
 ## Contact
 
-- info@abdulics.com
+- Email: info@abdulics.com
 - GitHub: https://github.com/abdulics
 - LinkedIn: https://linkedin.com/in/abdul-omar18
 
